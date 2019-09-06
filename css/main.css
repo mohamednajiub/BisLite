@@ -1,3 +1,4 @@
+/* start navbar styling */
 nav{
     background-color: #e8ebf1;
 }
@@ -48,3 +49,26 @@ nav{
 .nav-item.dropdown.show div a:not(:last-child){
     border-bottom: 1px solid rgba(0,0,0,0.1);
 }
+
+/* end navbar styling */
+
+/* start slider styling */
+.carousel{
+    background-color: #81e4ed;
+    padding: 20px;
+}
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%
+}
+.carousel-caption{
+    top: 43%;
+    left: 5px;
+    transform: translateY(-50%);
+    width: 30%
+}
+.carousel-caption p{
+    font-size: 3rem
+}
+/* end slider styling */
