@@ -98,6 +98,35 @@ nav{
 }
 /* end details */
 
+/* start latest works */
+.latest-works header i{
+    color: #2aacc8;
+    font-size: 25px
+}
+.latest-works header h3{
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0
+}
+.latest-works header .owl-nav>div{
+    background-color: #2aacc8;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.latest-works header .owl-nav>div i{
+    font-size: 15px;
+    color: #000
+}
+.latest-works .owl-carousel{
+    /* padding: 20px 0; */
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+/* end latest works */
+
 /* Small devices (landscape phones, 576px and up)*/
 @media (max-width: 575.98px)  {
     .carousel{
