@@ -17,7 +17,8 @@ $('.owl-stage').owlCarousel({
     },
     mouseDrag: true,
     dots: false,
-    freeDrag: true
+    freeDrag: true,
+    autoPlay: true
 });
 $('.owl-prev').click(function() {
     $('.owl-stage').trigger('prev.owl.carousel');
