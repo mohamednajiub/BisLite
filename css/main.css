@@ -72,6 +72,31 @@ nav{
     font-size: 3rem
 }
 /* end slider styling */
+/* start details */
+.details{
+    background-color: #e8ebf1;
+    padding: 50px 0
+}
+
+.details header i {
+    background-color: #2aacc8;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+.details header h3{
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 20px
+}
+.details .info footer a {
+    font-size: 15px;
+}
+/* end details */
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (max-width: 575.98px)  {
@@ -95,6 +120,9 @@ nav{
 @media (min-width: 992px) and (max-width: 1199.98px) { 
     .carousel-caption p{
         font-size: 2rem
+    }
+    .details header h3{
+        font-size: 15px
     }
 }
 
