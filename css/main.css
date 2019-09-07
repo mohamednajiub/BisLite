@@ -121,7 +121,6 @@ nav{
     color: #000
 }
 .latest-works .owl-carousel{
-    /* padding: 20px 0; */
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
@@ -152,6 +151,40 @@ nav{
     margin-right: 10px
 }
 /* end latest works */
+
+/* start testimolians-clients */
+.testimolians-clients header i{
+    color: #2aacc8;
+
+}
+.testimolians-clients header h3 {
+    text-transform: uppercase;
+    font-size: 15px
+}
+
+.testimolians-clients q{
+    font-weight: bold;
+}
+.testimolians-clients q a{
+    color: #000
+}
+
+.testimolians-clients q::after,
+.testimolians-clients q::before{
+    content: ''
+}
+
+.testimolians-clients .image-wrapper {
+    background-image: radial-gradient(white, white, #eaecee);
+    border: 1px solid #ccc;
+    border: 1px solid #ccc;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+}
+
+/* end testimolians-clients */
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (max-width: 575.98px)  {
