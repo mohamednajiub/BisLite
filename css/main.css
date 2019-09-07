@@ -204,6 +204,70 @@ nav{
 }
 /* end downloading section */
 
+/* start footer */
+footer{
+    background-color: #e8ebf1;
+}
+footer div>h4{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold
+}
+footer ul li a {
+    color: #000;
+}
+footer ul li a:hover,
+footer ul li a:active{
+    text-decoration: none;
+    color: #000
+}
+.connect-with-us ul li{
+    border: 5px solid #fefbfb;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+    margin: 0 5px 15px 0;
+    position: relative;
+}
+/* .connect-with-us ul li::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    width: 55px;
+    height: 55px;
+    transform: translate(-50%, -50%);
+}
+.connect-with-us ul li::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+} */
+.connect-with-us ul li a{
+    line-height: 30px;
+    color: #fff;
+    /* padding: 10px 10px; */
+}
+.connect-with-us ul li a:hover,
+.connect-with-us ul li a:active{
+    color: #fff;
+}
+/* end footer */
+
 /* Small devices (landscape phones, 576px and up)*/
 @media (max-width: 575.98px)  {
     .carousel{
